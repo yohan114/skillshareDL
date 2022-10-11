@@ -6,7 +6,7 @@ from skillshare import Skillshare, splash
 # dl.download_course_by_class_id(189505397)
 
 def main():
-    dl = Skillshare("PHPSESSID=caf16216cfe7df03f862accd937d4c3d")
+    dl = Skillshare("PHPSESSID=bda0f2ec8807671963df133d4052bceb")
     course_url = sys.argv[1]
     dl.download_course_by_url(course_url)
 
